@@ -1,14 +1,148 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "result": {
+        "data": {
+            "user_id": 221382,
+            "current_balance": 995.36,
+            "transactions": [
+                {
+                    "date": 1572892200000,
+                    "transactionsList": [
+                        {
+                            "id": 649901,
+                            "booking_id": 2212881,
+                            "nature": "Booking ID",
+                            "non_promotional_amount": 65.52,
+                            "credit_or_debit": "D",
+                            "non_promotional_balance": 1443.02,
+                            "img_url": "https://userdocs.bounceshare.com/SelfHelpIcons/v2/offer_info.svg",
+                            "created_at": 1572964998000
+                        },
+                        {
+                            "id": 649875,
+                            "booking_id": 2212865,
+                            "nature": "Booking ID",
+                            "non_promotional_amount": 10.64,
+                            "credit_or_debit": "D",
+                            "non_promotional_balance": 1508.54,
+                            "img_url": "https://userdocs.bounceshare.com/SelfHelpIcons/v2/offer_info.svg",
+                            "created_at": 1572951890000
+                        }
+                    ]
+                },
+                {
+                    "date": 1573756200000,
+                    "transactionsList": [
+                        {
+                            "id": 650377,
+                            "booking_id": 2213751,
+                            "nature": "Booking ID",
+                            "non_promotional_amount": 11.42,
+                            "credit_or_debit": "D",
+                            "non_promotional_balance": 995.36,
+                            "img_url": "https://userdocs.bounceshare.com/SelfHelpIcons/v2/offer_info.svg",
+                            "created_at": 1573816637000
+                        }
+                    ]
+                },
+                {
+                    "date": 1573497000000,
+                    "transactionsList": [
+                        {
+                            "id": 650196,
+                            "booking_id": 2213367,
+                            "nature": "Booking ID",
+                            "non_promotional_amount": 7.84,
+                            "credit_or_debit": "D",
+                            "non_promotional_balance": 1100.86,
+                            "img_url": "https://userdocs.bounceshare.com/SelfHelpIcons/v2/offer_info.svg",
+                            "created_at": 1573551960000
+                        }
+                    ]
+                },
+                {
+                    "date": 1573410600000,
+                    "transactionsList": [
+                        {
+                            "id": 650175,
+                            "booking_id": 2213327,
+                            "nature": "Booking ID",
+                            "non_promotional_amount": 7.84,
+                            "credit_or_debit": "D",
+                            "non_promotional_balance": 1108.7,
+                            "img_url": "https://userdocs.bounceshare.com/SelfHelpIcons/v2/offer_info.svg",
+                            "created_at": 1573483530000
+                        },
+                        {
+                            "id": 650170,
+                            "booking_id": 2213305,
+                            "nature": "Booking ID",
+                            "non_promotional_amount": 28.0,
+                            "credit_or_debit": "D",
+                            "non_promotional_balance": 1116.54,
+                            "img_url": "https://userdocs.bounceshare.com/SelfHelpIcons/v2/offer_info.svg",
+                            "created_at": 1573474022000
+                        },
+                        {
+                            "id": 650161,
+                            "booking_id": 2213283,
+                            "nature": "Booking ID",
+                            "non_promotional_amount": 82.88,
+                            "credit_or_debit": "D",
+                            "non_promotional_balance": 1144.54,
+                            "img_url": "https://userdocs.bounceshare.com/SelfHelpIcons/v2/offer_info.svg",
+                            "created_at": 1573469028000
+                        }
+                    ]
+                },
+                {
+                    "date": 1572978600000,
+                    "transactionsList": [
+                        {
+                            "id": 649928,
+                            "booking_id": 2213013,
+                            "nature": "Booking ID",
+                            "non_promotional_amount": 4.48,
+                            "credit_or_debit": "D",
+                            "non_promotional_balance": 1438.54,
+                            "img_url": "https://userdocs.bounceshare.com/SelfHelpIcons/v2/offer_info.svg",
+                            "created_at": 1573036630000
+                        }
+                    ]
+                },
+                {
+                    "date": 1573583400000,
+                    "transactionsList": [
+                        {
+                            "id": 650255,
+                            "booking_id": 2213439,
+                            "nature": "Booking ID",
+                            "non_promotional_amount": 94.08,
+                            "credit_or_debit": "D",
+                            "non_promotional_balance": 1006.78,
+                            "img_url": "https://userdocs.bounceshare.com/SelfHelpIcons/v2/offer_info.svg",
+                            "created_at": 1573641759000
+                        }
+                    ]
+                },
+                {
+                    "date": 1573151400000,
+                    "transactionsList": [
+                        {
+                            "id": 650096,
+                            "booking_id": 2213167,
+                            "nature": "Booking ID",
+                            "non_promotional_amount": 211.12,
+                            "credit_or_debit": "D",
+                            "non_promotional_balance": 1227.42,
+                            "img_url": "https://userdocs.bounceshare.com/SelfHelpIcons/v2/offer_info.svg",
+                            "created_at": 1573214493000
+                        }
+                    ]
+                }
+            ]
+        },
+        "message": "Success!",
+        "status_code": 200,
+        "status": true
+    }
 }
